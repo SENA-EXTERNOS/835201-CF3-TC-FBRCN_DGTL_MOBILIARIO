@@ -4,14 +4,15 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Vistas auxiliares y detalle en el ensamble
-
+        span 4
+      h1 Tecnologías 4.0 en el ensamble y montaje
+      
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
+  components: {},
   data: () => ({
     // variables de vue
   }),
