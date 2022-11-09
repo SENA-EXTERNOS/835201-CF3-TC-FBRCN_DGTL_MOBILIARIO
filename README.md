@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Elementos y etapas en la preproducción de mobiliarios**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://github.com/SENA-EXTERNOS/835201-CF3-TC-FBRCCN_DGTL_MOBILIARIO](https://github.com/SENA-EXTERNOS/835201-CF3-TC-FBRCCN_DGTL_MOBILIARIO)
 
 #
 
