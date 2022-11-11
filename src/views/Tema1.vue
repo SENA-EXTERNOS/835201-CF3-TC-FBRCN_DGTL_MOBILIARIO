@@ -69,7 +69,7 @@
     ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
-          img.mb-4(src='@/assets/curso/temas/tema1/img-6.png')
+          img.mb-4(src='@/assets/curso/temas/tema1/img-6.svg')
       .tarjeta.colormodal(x="20%" y="38%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
@@ -316,15 +316,12 @@
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
-              img(src='@/assets/curso/temas/tema1/img-24.png')
+              img(src='@/assets/curso/temas/tema1/img-24.svg')
           .col-7
             br
             br
             br
             p.tamanio Las anotaciones y ayudas corresponden a las indicaciones que permiten tener un mayor entendimiento al diseñador y en especial al cliente, en cuanto a la utilización de herramientas, o consideraciones de seguridad aplicables tanto en el proceso de ensamble, como en el uso del mueble. Aspectos aplicables a la garantía, mantenimiento, contacto y similares.
-
-
-
 </template>
 
 <script>

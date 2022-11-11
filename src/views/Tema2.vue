@@ -25,27 +25,32 @@
         figure
           img(src='@/assets/curso/temas/tema2/img-2.png')
 
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
-      .tarjeta.color-tarjeta.p-5
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema2/img-3.png')
-        p.mb-4.text-center La luz. 
-      .tarjeta.color-tarjeta.p-5
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema2/img-3.png')
-        p.mb-4.text-center La tonalidad de la luz.  
-      .tarjeta.color-tarjeta.p-3
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema2/img-3.png')
-        p.text-center Los brillos o reflejos generados en superficies y bordes.  
-      .tarjeta.color-tarjeta.p-3
-        .row.justify-content-center.mb-4
-          .col-8
-            img(src='@/assets/curso/temas/tema2/img-3.png')
-        p.text-center Estética en función del tipo de material en el que está diseñado. 
+    .row.mb-5
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.p-5
+          .row.justify-content-center.mb-4
+            .col-8.mb-3
+              img(src='@/assets/curso/temas/tema2/img-3.png')
+          p.mb-4.text-center La luz. 
+          br
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0
+        .tarjeta--boton.color-acento-botones.p-5
+          .row.justify-content-center.mb-5
+            .col-8.mb-3
+              img(src='@/assets/curso/temas/tema2/img-3.png')
+          p.mb-4.text-center La tonalidad de la luz.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0  
+        .tarjeta--boton.color-acento-botones.p-5
+          .row.justify-content-center.mb-4
+            .col-8
+              img(src='@/assets/curso/temas/tema2/img-3.png')
+          p.text-center Los brillos o reflejos generados en superficies y bordes.
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0  
+        .tarjeta--boton.color-acento-botones.p-5
+          .row.justify-content-center.mb-4
+            .col-8
+              img(src='@/assets/curso/temas/tema2/img-3.png')
+          p.text-center Estética en función del tipo de material en el que está diseñado. 
 
     .row 
       .col-lg-5
@@ -115,16 +120,6 @@
 
         p La designación de letras y/o números para las operaciones de ensamble deben estar definidas desde el principio del proceso de preproducción parte del diseñador. Pues a partir de esta, en el manual de ensamble o instrucciones, se encontrará el índice que le permite al cliente o al equipo de diseño, identificar y seleccionar los elementos y piezas requeridos para el ensamble o armado. 
 
-
-
-
-
-
-
-
-
-      
-    
 
 </template>
 

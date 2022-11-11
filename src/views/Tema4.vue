@@ -6,6 +6,12 @@
       .titulo-principal__numero
         span 4
       h1 Tecnologías 4.0 en el ensamble y montaje
+
+    p.mb-5 En el siguiente video se explican algunas de las tecnologías que se usan y hasta el momento se han desarrollado, para el proceso de ensamble y montaje: 
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       
 </template>
 

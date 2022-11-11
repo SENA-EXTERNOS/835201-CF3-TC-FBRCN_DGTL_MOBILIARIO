@@ -2,10 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-sexto.color-sena.pb-0
-      h5.mt-1 Fabricación digital de mobiliario
-      br
-      p Síntesis: Elementos y etapas que componen la fase de preproducción de mobiliarios.
 
     p.mb-5 En esta síntesis se encuentran los principales temas del componente <em>elementos y etapas que componen la fase de preproducción de mobiliarios</em>, es valioso estudiarla con atención.
 
