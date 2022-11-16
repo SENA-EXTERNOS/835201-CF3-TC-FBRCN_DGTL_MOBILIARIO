@@ -66,7 +66,7 @@
           p.mb-0.text-small <b>Figura 1</b>.
           p.text-small <em>Materias primas en mobiliarios</em>
 
-    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="fade-right")
+    ImagenInfograficaB.color-acento-botones.mb-5
       template(v-slot:imagen)
         figure
           img.mb-4(src='@/assets/curso/temas/tema1/img-6.svg')
