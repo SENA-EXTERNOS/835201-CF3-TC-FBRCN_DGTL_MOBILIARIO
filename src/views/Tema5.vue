@@ -50,7 +50,7 @@
           .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-5
             .col-lg-4.mb-4.mb-lg-0.col-md-10
             .col-lg-8.col-md-10
-              .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
+              .bloque-texto-a__texto.p-4.order-md-first.order-sm-last.texto_tarjeta_verde
                 p Existen dos maneras de generar planos, una es,<b> a partir del objeto o sólido construido en los programas de diseño y dibujo mecánico</b>, a través de la opción que estos tienen de<b> exportación o generación de planos y vistas</b> y, la <b>forma manual</b> como de manera habitual se hacía anteriormente. En la actualidad, no es común encontrar que los planos se desarrollen o emitan de manera manual, debido a que la utilización de los programas de diseño y dibujo mecánico se han posicionado fuertemente en el mercado y debido a la gran competencia de desarrolladores, existen numerosas opciones de bajo costo, e incluso gratuitas, que permiten hacer estos de forma rápida y eficiente. 
 
     p.mb-5 Sin embargo, en cualquiera de los dos casos en los que el diseñador se encuentre al momento de emitir o generar un plano, encontrará que existen elementos básicos que los abarcan, estos son: 
@@ -83,7 +83,7 @@
             h4.mb-3 Codificación
             p.mb-0 La codificación es la manera en la cual el diseñador, o el área de producción designa un plano con el propósito de garantizar la accesibilidad a este, una vez se archiva o almacena. Por lo general, en la codificación de los planos, se asignan parámetros como: fecha de emisión, versión, y nombre representativo de lo que contiene el plano.
 
-    p.mb-5 Un ejemplo de codificación para un producto como el de la mesa auxiliar de las imágenes del tema anterior, fabricado el 8 de agosto de 2022, para exportación a Ecuador, en su codificación podría ser: 8-09-2022-V1.0-MesaAux11-41-INT-ECU, donde: 
+    p.mb-5 Un ejemplo de codificación para un producto como el de la mesa auxiliar de las imágenes del tema anterior, fabricado el 8 de agosto de 2022, para exportación a Ecuador, en su codificación podría ser:<b> 8-09-2022-V1.0-MesaAux11-41-INT-ECU</b>, donde: 
 
     .row.mb-5
       .col-lg-7.order-2.order-lg-1
@@ -126,7 +126,7 @@
 
 
 
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center.mb-3
       .col-lg-12
         .cajon.color-bloque-2.p-4.mb-4
           p Ejemplo para el diseño y diligenciamiento de un cajetín, los espacios de unidades, cantidad y número son elementos que el diseñador o equipo de producción puede crear o cambiar por otros ítems que se consideren relevantes para el seguimiento y la gestión del plano. 

@@ -14,14 +14,15 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las acciones de renderizado y explosionado en el proceso de diseño de productos mobiliarios van de la mano. A continuación, se invita a observar en qué consiste cada uno de ellos. 
 
-    .row.mb-5
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8
       .col-lg-9
         h3 Renderizado 
         
         p El <em>renderizado</em> consiste en llevar el diseño constructivo del producto mobiliario, a <b>espacios virtuales que recreen las condiciones más cercanas a la realidad del cliente</b>. Esto es, presentar el diseño en un espacio como una oficina junto a elementos propios de dicho espacio como escritorios, personas, puertas, etc.
 
         p.mb-5 También es propio del renderizado utilizar aspectos influyentes a nivel estético como: 
-      .col-lg-3
+      .col-3
         figure
           img(src='@/assets/curso/temas/tema2/img-2.png')
 
@@ -93,15 +94,12 @@
           .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
             p.ms-5 Ejemplo de explosionado de conjunto. Se observa que corresponde al diseño de una mesa auxiliar.  
           .col-md-6
-            figure.row.justify-content-center.align-items-center.mb-5
+            figure.row.justify-content-center.mb-0
               .col-lg-8
               img.img-300(src='@/assets/curso/temas/tema2/img-7.png')
-        .row
+        .row.justify-content-center.align-items-center.mb-0
           .col-md-6.mb-4.mb-md-0
-            br
-            br
-            br
-            br
+          
             p.ms-5 Ejemplo de explosionado de partes del conjunto de la puerta de la mesa auxiliar, se aprecian elementos de fijación mecánica entre las bisagras y la superficie del producto. 
 
             p.ms-5 En esta figura, se aprecia en un círculo el aumento de la imagen del conjunto: bisagra, puerta y tronillos. A esta acción se le denomina, <em>vista de detalle o auxiliar</em>, que se desarrollará en el siguiente tema. (Ovela, s/f).   
@@ -119,6 +117,8 @@
         p En ambas imágenes del <em>explosionado de la mesa auxiliar</em>, se aprecian <b>letras</b> y <b>números</b>, este recurso es utilizado por el diseñador para designar tipos de tornillos, pernos, herrajes, entre otros y para diferenciar las partes o piezas que componen el conjunto del producto. Normalmente se utilizan letras para los elementos de fijación y accesorios como herrajes y números para las piezas.
 
         p La designación de letras y/o números para las operaciones de ensamble deben estar definidas desde el principio del proceso de preproducción parte del diseñador. Pues a partir de esta, en el manual de ensamble o instrucciones, se encontrará el índice que le permite al cliente o al equipo de diseño, identificar y seleccionar los elementos y piezas requeridos para el ensamble o armado. 
+
+      
 
 
 </template>

@@ -8,10 +8,10 @@
       h1 Vistas auxiliares y detalle en el ensamble
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
-      .bloque-texto-g__img(
+      .bloque-texto-g__img_tres(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema3/img-1.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto_tres.p-4
         p.mb-0 Como se pudo ver, el explosionado parte de la construcción de un elemento sólido y la separación en vista isométrica de los elementos y piezas que la conforman. Las vistas auxiliares, como su nombre lo indica, corresponden a las vistas que utiliza el diseñador para representar más componentes que hacen parte de una sección del conjunto, que, en una vista isométrica normal, pudiesen no identificarse de manera clara, o sobre una sección del conjunto que requiera ser ampliada. 
 
     p.mb-5 Algunas particularidades de las vistas auxiliares son: 
@@ -47,44 +47,45 @@
 
     .tarjeta.color-slider.p-4
       SlyderA(tipo="b")
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 Por lo general, las vistas auxiliares se distinguen porque se encuentran delimitadas o encerradas por líneas continuas y una forma en el perímetro de la misma triangular, que indica de que vista originalmente ha sido tomada.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-3.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 En esta imagen se puede apreciar cómo el diseñador utiliza dos vistas auxiliares para indicar, en una, la manera correcta de la posición de un perno de fijación y en la otra, los tornillos que ajustan el riel a la madera.
+            p.ms-5 (Ovela, s/f). 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-4.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 Las <b>vistas de detalle </b>contienen mayor información visual y procedimental, específica de una operación, proceso de ensamble o condición de una pieza o un componente. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-5.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 Las vistas de destalle, por lo general están acompañadas de anotaciones escritas, que ayudan a clarificar dudas sobre el ensamble o el producto por parte del cliente.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-6.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 Al igual que con las vistas auxiliares, se recomienda al diseñador, no escatimar en la utilización e implementación de las vistas de detalle que sean necesarias.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-7.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 En este ejemplo de vista de detalle, se puede observar cómo el diseñador hace énfasis en el detalle de las bisagras, de las puertas de la mesa auxiliar. También implementa dentro de los pasos de ensamble otros nuevos pasos, para dar mayor claridad en la manera de instalar las bisagras a la madera. (Ovela, s/f).  
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-8.png')
-        .row
-          .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center
+          .col-md-6.mb-4.mb-md-0
             p.ms-5 En este conjunto de vistas de detalle, puede observarse cómo el diseñador ilustra los elementos de fijación mecánica y las cantidades de los mismos, que componen dentro del conjunto, el ensamble de la sección de la mesa auxiliar. (Ovela, s/f).
           .col-md-6
             figure

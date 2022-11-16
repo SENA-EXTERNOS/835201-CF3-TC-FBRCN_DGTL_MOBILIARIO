@@ -9,7 +9,7 @@
 
     p.mb-5 Tradicionalmente la madera ha sido la materia prima predilecta para la fabricación de mobiliarios. Sin embargo, otras fibras naturales como el mimbre, así como materiales como el acero inoxidable y aluminio, son utilizados especialmente en espacios  exteriores.
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img-1.png')})`}"
       )
@@ -49,8 +49,8 @@
     #t_1_1.titulo-segundo.color-acento-botones.pb-2
       h3 1.1 Materiales utilizados
 
-    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-6
-      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
+    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-6(data-aos="fade-left")
+      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-11
         .col-lg-4.mb-4.mb-lg-0.col-md-10
         .col-lg-8.col-md-10
           .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
@@ -66,7 +66,7 @@
           p.mb-0.text-small <b>Figura 1</b>.
           p.text-small <em>Materias primas en mobiliarios</em>
 
-    ImagenInfograficaB.color-acento-botones.mb-5
+    ImagenInfograficaB.color-acento-botones.mb-5(data-aos="fade-right")
       template(v-slot:imagen)
         figure
           img.mb-4(src='@/assets/curso/temas/tema1/img-6.svg')
@@ -148,7 +148,7 @@
             p los plásticos son materias primas que han incursionado en todos los campos e industrias, en el caso del mobiliario es muy común encontrar una gran variedad de propuestas a nivel comercial de este tipo. Especialmente para propósitos que van desde lo ornamental, hasta el ocio a espacios abiertos; como en soluciones que reemplacen muebles que tradicionalmente se fabrican en madera como armarios, estantes o repisas. El plástico más utilizado en la fabricación de productos mobiliarios es el polipropileno, gracias a las propiedades físicas que se asemejan a las prestaciones de dureza y flexibilidad de algunas maderas. Por tratarse de un material sintético, a diferencia de la madera, no requiere muchas consideraciones en cuanto al tipo de uso o ambiente en el que se vaya a utilizar. Sin embargo, el proceso de fabricación con plásticos vírgenes (aquellos plásticos que provienen como subproducto del proceso de refinamiento del petróleo), es muy diferente al llevado a cabo con maderas o metales, ya que estos, son inyectados en moldes y, por lo general, el producto final resulta en una sola pieza o en varias, si es el caso de mobiliarios modulares.
 
       .tarjeta.colormodal(x="70.4%" y="54.5%" numero="+")
-        .row.justify-content-center.mb-5.p-5
+        .row.justify-content-center.mb-5.p-5(data-aos="fade-left")
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-67.png')
@@ -162,22 +162,22 @@
     #t_1_2.titulo-segundo.color-acento-botones.pb-2
       h3 1.2 Esquematización de procedimientos de ensamble
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img-7.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El ensamble de los productos mobiliarios representa una acción importante desde la fase de diseño, hasta la producción. Desde el proceso de diseño, el diseñador debe contemplar los elementos que intervienen en una acción de ensamble, para los productos que no son proyectados en una sola pieza y para los de tipo modular. Dentro de los procesos de ensamble, se distinguen dos en particular, el que corresponde al preensamblado desde la producción, y al del ensamble por parte del cliente en los productos que lo requieren.
+        p.mb-0 El ensamble de los productos mobiliarios representa una acción importante desde la fase de diseño, hasta la producción. Desde el proceso de diseño, el diseñador debe contemplar los elementos que intervienen en una acción de ensamble, para los productos que no son proyectados en una sola pieza y para los de tipo modular. Dentro de los procesos de ensamble, se distinguen dos en particular, el que corresponde al <b>preensamblado</b> desde la producción, y al del <b>ensamble</b> por parte del cliente en los productos que lo requieren.
         br
         br
         p Los preensambles en la fase de producción, por lo general se llevan a cabo utilizando elementos de sujeción mecánica como tornillos, pernos o remaches, o ensambles a través de encajes angulares, en el caso del aluminio y acero. Además de los elementos de fijación mecánica, también se llevan a cabo ensambles mediante la aplicación de soldadura. A continuación, se muestran algunos elementos y tipos de ensamble.
 
     h5.mb-5  Elementos de sujeción o fijación mecánica  
 
-    .row 
+    .row.mb-5
       .col-lg-2
-        figure
-          img(src='@/assets/curso/temas/tema1/img-8.png')
+        figure.mb-3
+          img(src='@/assets/curso/temas/tema1/img-8.png')(data-aos="fade-left")
       .col-lg-10
         p En el caso de los mobiliarios de madera se encuentran los conocidos tornillos o pernos, tuercas, tarugos o tacos. Por su parte, en los mobiliarios producidos en materiales metálicos como el aluminio y el acero, además de utilizarse tornillos, pernos y tuercas, también es muy común el uso de remaches. Todos estos elementos no requieren la adición de calor o intervención en las propiedades químicas de los materiales, siempre son utilizados a partir de la generación de un orificio con una herramienta como el taladro, dentro del cual se alojarán.  
 
@@ -205,7 +205,7 @@
             br
             br
             br
-            p Son empleados directamente sobre superficies de madera, aglomerados y plásticos. 
+            p.mb-3 Son empleados directamente sobre superficies de madera, aglomerados y plásticos. 
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img-13.png')
@@ -215,7 +215,7 @@
             br
             br
             br
-            p Pueden encontrarse en presentaciones de madera o plástico. Los de madera mayormente se utilizan con la aplicación de pegante natural para madera y, en el caso de los plásticos, se insertan directamente entre los agujeros de las piezas del mismo material a ensamblar. 
+            p.mb-3 Pueden encontrarse en presentaciones de madera o plástico. Los de madera mayormente se utilizan con la aplicación de pegante natural para madera y, en el caso de los plásticos, se insertan directamente entre los agujeros de las piezas del mismo material a ensamblar. 
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img-14.png')
@@ -248,7 +248,7 @@
 
     h4.mb-5 Soldadura
 
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img-18.png')})`}"
       )
@@ -294,30 +294,30 @@
           img.mb-4(src='@/assets/curso/temas/tema1/img-21.png')
       .tarjeta.colormodal-2(x="6.7%" y="35%" numero="+")
         .row.justify-content-center.mb-5.p-5
-          .col-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/img-22.png')
-          .col-7
+          .col-lg-7.col-sm-12
             br
             br
             br
             p.tamanio El isométrico o renderizado del producto, permite tanto al diseñador, el equipo de producción y a los clientes, identificar el producto sobre el cual se llevarán a cabo los procesos y pasos para el ensamble. Esto es muy importante, porque a medida que se van generando más diseños de productos, las nuevas versiones u ofertas, surgen a partir de la revisión y mejora de los anteriores. En el caso de los clientes, les permite tener un marco de referencia sobre el producto.
       .tarjeta.colormodal-2(x="40.2%" y="35%" numero="+")
         .row.justify-content-center.mb-5.p-5
-          .col-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/img-23.png')
-          .col-7
+          .col-lg-7.col-sm-12
             br
             br
             br
             p.tamanio Los pasos ordenados son el conjunto de instrucciones que, para el diseñador, el equipo de diseño y los clientes, representan desde la apertura del envoltorio del mobiliario, hasta el último elemento o tornillo que componen el producto. Para el caso de los muebles modulares, gracias a la opción de explosionado, el diseñador puede tomar partes o secciones para mostrar de manera detallada el procedimiento de forma sencilla y entendible. En esta fase, se representan también los elementos de fijación mecánica empleados o los ensambles angulares, si el producto los requiere.
       .tarjeta.colormodal-2(x="74%" y="35%" numero="+")
         .row.justify-content-center.mb-5.p-5
-          .col-5
+          .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema1/img-24.svg')
-          .col-7
+          .col-lg-7.col-sm-12
             br
             br
             br
