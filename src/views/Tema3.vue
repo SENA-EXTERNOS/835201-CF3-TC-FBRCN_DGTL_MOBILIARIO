@@ -68,7 +68,7 @@
               img(src='@/assets/curso/temas/tema3/img-5.png')
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            p.ms-5 Las vistas de destalle, por lo general están acompañadas de anotaciones escritas, que ayudan a clarificar dudas sobre el ensamble o el producto por parte del cliente.
+            p.ms-5 Las vistas de detalle, por lo general están acompañadas de anotaciones escritas, que ayudan a clarificar dudas sobre el ensamble o el producto por parte del cliente.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/img-6.png')

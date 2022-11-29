@@ -132,19 +132,6 @@
           p Ejemplo para el diseño y diligenciamiento de un cajetín, los espacios de unidades, cantidad y número son elementos que el diseñador o equipo de producción puede crear o cambiar por otros ítems que se consideren relevantes para el seguimiento y la gestión del plano. 
 
     p Se recomienda explorar los demás recursos que se encuentran disponibles en este componente formativo, para hacerlo es importante ir al menú principal en donde se encuentra la síntesis, una actividad didáctica, el material complementario, entre otros. 
-
-
-
-
-
-
-
-
-
-
-       
-
-
 </template>
 
 <script>

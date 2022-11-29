@@ -23,7 +23,7 @@
         .row
           .col-md-6.mb-4.mb-md-0.row.justify-content-center.align-items-center
             h4.ms-5 Función
-            p.ms-5 Se refiere al servicio que prestará el mobiliario, esto es, si el destino es para el ocio o el descanso, se encontrarán materiales para brindar más comodidad por mayor tiempo. Aquí juega un papel importante la <b>ergonomía</b> y la percepción<b> organoléptica</b>, que básicamente consiste en que una silla para el descanso, no tendrá la misma forma, ni la misma sensación al tacto que una silla para el trabajo de escritorio o de comedor. Asimismo, si el producto diseñado está orientado a cumplir funciones que impliquen la carga de pesos variables, desplazamiento o solamente ornamental, el tipo de material garantizará la función deseada, en función de las propiedades de <em>rigidez, dureza, etc</em>. 
+            p.ms-5 Se refiere al servicio que prestará el mobiliario, esto es, si el destino es para el ocio o el descanso, se encontrarán materiales para brindar más comodidad por mayor tiempo. Aquí juega un papel importante la <b>ergonomía</b> y la percepción<b> organoléptica</b>, que básicamente consiste en que una silla para el descanso, no tendrá la misma forma, ni la misma sensación al tacto que una silla para el trabajo de escritorio o de comedor. Asimismo, si el producto diseñado está orientado a cumplir funciones que impliquen la carga de pesos variables, desplazamiento o solamente <em>ornamental,</em> el tipo de material garantizará la función deseada, en función de las propiedades de <em>rigidez, dureza, etc</em>. 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img-2.png')
@@ -54,8 +54,7 @@
         .col-lg-4.mb-4.mb-lg-0.col-md-10
         .col-lg-8.col-md-10
           .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
-            p Como se mencionó previamente, la materia prima o material predominante en el proceso de diseño y fabricación de mobiliarios es la madera. No obstante, existen distintos tipos de madera, que, de acuerdo a su procedencia y tratamiento, se dividen en distintas categorías y se destinan para diversos usos. Del mismo modo, otras materias primas, como el acero inoxidable se encuentran en varias presentaciones, de igual forma los aluminios con diferentes tratamientos y por supuesto los plásticos. 
-            br
+            p Como se mencionó previamente, la materia prima o material predominante en el proceso de diseño y fabricación de mobiliarios es la <b>madera</b>. No obstante, existen distintos tipos de madera, que, de acuerdo a su procedencia y tratamiento, se dividen en distintas categorías y se destinan para diversos usos. Del mismo modo, otras materias primas, como el <b>cacero inoxidable</b> se encuentran en varias presentaciones, de igual forma los <b>aluminios</b> con diferentes tratamientos y por supuesto los <b>plásticos</b>. 
             p Dentro de los materiales que se utilizan como accesorios es posible encontrar herrajes en acero, aluminio, madera y plástico, que, de acuerdo a la función del mobiliario y estilo de diseño, pueden ser empleados para realzar propiedades físicas, estructurales o de impacto visual.
 
     p Teniendo en lo anterior, a continuación, se presentan las principales materias primas para la producción de mobiliario:
@@ -66,96 +65,78 @@
           p.mb-0.text-small <b>Figura 1</b>.
           p.text-small <em>Materias primas en mobiliarios</em>
 
-    ImagenInfograficaB.color-acento-botones.mb-5
+    ImagenInfograficaB.color-acento-botones.mb-5.img-infografica-b__item__numero-2
       template(v-slot:imagen)
         figure
           img.mb-4(src='@/assets/curso/temas/tema1/img-6.svg')
-      .tarjeta.colormodal(x="20%" y="38%" numero="+")
+      .tarjeta.colormodal(x="20%" y="36%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-61.png')
           .col-7
-            p <b>Maderas</b>
-
-            p La madera es una materia prima que, a partir de su tratamiento en bruto puede generar: maderas aserradas, maderas inmunizadas y residuos.
-      .tarjeta.colormodal(x="4.8%" y="54.5%" numero="+")
+            p.tamanio La madera es una materia prima que, a partir de su tratamiento en bruto puede generar.
+      .tarjeta.colormodal(x="30.8%" y="54.5%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-62.png')
           .col-7
-            p <b>Maderas aserradas </b>
-
-            p Son las maderas que como su nombre lo indica, al pasar por los procesos de un aserradero, se pueden destinar para la construcción de edificaciones, barcos y mobiliarios, que requieren altas prestaciones a nivel de resistencia estructural. A partir de estas maderas se encuentra una amplia oferta de mobiliario del tipo rústico. (Departamento de Planeación Nacional, s/f).
-      .tarjeta.colormodal(x="4.8%" y="71.7%" numero="+")
+            p.tamanio Son las maderas que como su nombre lo indica, al pasar por los procesos de un aserradero, se pueden destinar para la construcción de edificaciones, barcos y mobiliarios, que requieren altas prestaciones a nivel de resistencia estructural. A partir de estas maderas se encuentra una amplia oferta de mobiliario del tipo rústico. (Departamento de Planeación Nacional, s/f).
+      .tarjeta.colormodal(x="30.8%" y="71.7%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-62.png')
           .col-7
-            p <b>Maderas inmunizadas </b>
-
-            p Son maderas que luego de pasar por los procesos de aserraderos, reciben un tratamiento con agentes químicos que previenen la aparición de daños producidos por agentes biológicos como plagas (termitas, por ejemplo), y agentes ambientales como la lluvia, el sol, el calor, el frío, la humedad y la salinidad. Están destinadas también a prestaciones estructurales a nivel de construcción y, en el mobiliario, se utilizan para productos que van a prestar su función en ambientes con condiciones adversas, normalmente en exteriores. Este tipo de maderas, gracias a los procesos de inmunización a los que son sometidas, garantizan un ciclo de vida del producto mucho más largo, respecto a maderas que no son inmunizadas. (Departamento de Planeación Nacional, s/f).
-      .tarjeta.colormodal(x="4.8%" y="88.2%" numero="+")
+            p.tamanio Son maderas que luego de pasar por los procesos de aserraderos, reciben un tratamiento con agentes químicos que previenen la aparición de daños producidos por agentes biológicos como plagas (termitas, por ejemplo), y agentes ambientales como la lluvia, el sol, el calor, el frío, la humedad y la salinidad. Están destinadas también a prestaciones estructurales a nivel de construcción y, en el mobiliario, se utilizan para productos que van a prestar su función en ambientes con condiciones adversas, normalmente en exteriores. Este tipo de maderas, gracias a los procesos de inmunización a los que son sometidas, garantizan un ciclo de vida del producto mucho más largo, respecto a maderas que no son inmunizadas. (Departamento de Planeación Nacional, s/f).
+      .tarjeta.colormodal(x="30.8%" y="88.2%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-62.png')
           .col-7
-            p <b>Residuos </b>
-
-            p A partir de los procesos que se llevan a cabo en los aserraderos con diferentes maderas en bruto, se obtienen maderas de tipo contrachapa y aglomerada, que son los residuos o partículas sometidas a alta presión y temperatura, utilizando aglutinantes o resinas, para obtener tableros o tablas de un nuevo material compuesto por varios tipos de madera. Estos productos son ampliamente utilizados, sobre todo en los mobiliarios de tipo modular. No son resistentes a la humedad ni al agua y no se recomiendan para el uso en exteriores, o funciones que requieran de gran resistencia estructural. A diferencia de los anteriores tipos de maderas, estas son más económicas de adquirir en el mercado, en su presentación en forma de tablero. (Departamento de Planeación Nacional, s/f).
-      .tarjeta.colormodal(x="52%" y="38%" numero="+")
+            p.tamanio A partir de los procesos que se llevan a cabo en los aserraderos con diferentes maderas en bruto, se obtienen <b>maderas de tipo contrachapa y aglomerada,</b> que son los residuos o partículas sometidas a alta presión y temperatura, utilizando aglutinantes o resinas, para obtener tableros o tablas de un nuevo material compuesto por varios tipos de madera. Estos productos son ampliamente utilizados, sobre todo en los mobiliarios de tipo modular. No son resistentes a la humedad ni al agua y no se recomiendan para el uso en exteriores, o funciones que requieran de gran resistencia estructural. A diferencia de los anteriores tipos de maderas, estas son más económicas de adquirir en el mercado, en su presentación en forma de tablero. (Departamento de Planeación Nacional, s/f).
+      .tarjeta.colormodal(x="52%" y="36%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-63.png')
           .col-7
-            p <b>Acero y aluminio </b>
-
-            p Estos dos metales son ampliamente utilizados en los mobiliarios industriales y de espacios exteriores, debido a su resistencia y gran durabilidad. En el caso de estos, se resaltan las siguientes presentaciones: tubos redondos, tubos cuadrados y láminas o chapas.
-      .tarjeta.colormodal(x="37.6%" y="54.6%" numero="+")
+            p.tamanio Estos dos metales son ampliamente utilizados en los mobiliarios industriales y de espacios exteriores, debido a su resistencia y gran durabilidad. En el caso de estos, se resaltan las siguientes presentaciones.
+      .tarjeta.colormodal(x="63.6%" y="54.6%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-64.png')
           .col-7
-            p <b>Tubos redondos</b>
-
-            p Como lo indica su nombre son tubos con forma circular, cuyo espesor o calibre varía en función de la necesidad. Con el acero en mayor medida que el aluminio, al momento de hacer dobleces, se presenta un fenómeno denominado “endurecimiento por deformación”, que es aprovechado por los diseñadores y fabricantes para hacer la mayoría de soportes o partes de muebles que resistirán pesos, sin necesidad de cortar o seccionar partes. Un ejemplo, puede ser visto en las sillas escolares hechas de tubos de acero o las sillas de cafetería en aluminio.
-      .tarjeta.colormodal(x="37.6%" y="71.4%" numero="+")
+            p.tamanio Como lo indica su nombre son tubos con forma circular, cuyo espesor o calibre varía en función de la necesidad. Con el acero en mayor medida que el aluminio, al momento de hacer dobleces, se presenta un fenómeno denominado “endurecimiento por deformación”, que es aprovechado por los diseñadores y fabricantes para hacer la mayoría de soportes o partes de muebles que resistirán pesos, sin necesidad de cortar o seccionar partes. Un ejemplo, puede ser visto en las sillas escolares hechas de tubos de acero o las sillas de cafetería en aluminio.
+      .tarjeta.colormodal(x="63.6%" y="71.4%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-65.png')
           .col-7
-            p <b>Tubos cuadrados</b>
-
-            p Son tubos que tienen una presentación rectangular, variando no solo el calibre, sino el largo y ancho. A diferencia de los redondos, estos no se endurecen a medida que se deforman o doblan, por el contrario, tienden a fracturarse o partirse. En los tubos cuadrados, los dobleces son reemplazados por cortes, que, mediante técnicas de unión o fijación, permitirán el ensamble o ajuste con otras piezas o partes.
-      .tarjeta.colormodal(x="37.6%" y="88.1%" numero="+")
+            p.tamanio Son tubos que tienen una presentación rectangular, variando no solo el calibre, sino el largo y ancho. A diferencia de los redondos, estos no se endurecen a medida que se deforman o doblan, por el contrario, tienden a fracturarse o partirse. En los tubos cuadrados, los dobleces son reemplazados por cortes, que, mediante técnicas de unión o fijación, permitirán el ensamble o ajuste con otras piezas o partes.
+      .tarjeta.colormodal(x="63.6%" y="88.1%" numero="+")
         .row.justify-content-center.mb-5.p-5
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-66.png')
           .col-7
-            p <b>Láminas o chapas </b>
-
-            p Al igual que los tubos, poseen un espesor o calibre, su presentación es cuadrada o rectangular. Gracias a esta geometría, es posible llevar a cabo dobleces en una sola lámina o chapa. Son ampliamente utilizadas en la producción de mobiliario de la industria de alimentos, medicina, cárnicos y cocinas. Así como, para la conformación de superficies de muebles de uso frecuente y ambientes exteriores. Como ejemplo, se resaltan las mesas de cafeterías y lavaderos de cocina.
-      .tarjeta.colormodal(x="85%" y="38%" numero="+")
+            p.tamanio Al igual que los tubos, poseen un espesor o calibre, su presentación es cuadrada o rectangular. Gracias a esta geometría, es posible llevar a cabo dobleces en una sola lámina o chapa. Son ampliamente utilizadas en la producción de mobiliario de la industria de alimentos, medicina, cárnicos y cocinas. Así como, para la conformación de superficies de muebles de uso frecuente y ambientes exteriores. Como ejemplo, se resaltan las mesas de cafeterías y lavaderos de cocina.
+      .tarjeta.colormodal(x="85%" y="36%" numero="+")
         .row.justify-content-center.mb-5.p-5
 
-            p los plásticos son materias primas que han incursionado en todos los campos e industrias, en el caso del mobiliario es muy común encontrar una gran variedad de propuestas a nivel comercial de este tipo. Especialmente para propósitos que van desde lo ornamental, hasta el ocio a espacios abiertos; como en soluciones que reemplacen muebles que tradicionalmente se fabrican en madera como armarios, estantes o repisas. El plástico más utilizado en la fabricación de productos mobiliarios es el polipropileno, gracias a las propiedades físicas que se asemejan a las prestaciones de dureza y flexibilidad de algunas maderas. Por tratarse de un material sintético, a diferencia de la madera, no requiere muchas consideraciones en cuanto al tipo de uso o ambiente en el que se vaya a utilizar. Sin embargo, el proceso de fabricación con plásticos vírgenes (aquellos plásticos que provienen como subproducto del proceso de refinamiento del petróleo), es muy diferente al llevado a cabo con maderas o metales, ya que estos, son inyectados en moldes y, por lo general, el producto final resulta en una sola pieza o en varias, si es el caso de mobiliarios modulares.
+            p.tamanio los plásticos son materias primas que han incursionado en todos los campos e industrias, en el caso del mobiliario es muy común encontrar una gran variedad de propuestas a nivel comercial de este tipo. Especialmente para propósitos que van desde lo ornamental, hasta el ocio a espacios abiertos; como en soluciones que reemplacen muebles que tradicionalmente se fabrican en madera como armarios, estantes o repisas. El plástico más utilizado en la fabricación de productos mobiliarios es el polipropileno, gracias a las propiedades físicas que se asemejan a las prestaciones de dureza y flexibilidad de algunas maderas. Por tratarse de un material sintético, a diferencia de la madera, no requiere muchas consideraciones en cuanto al tipo de uso o ambiente en el que se vaya a utilizar. Sin embargo, el proceso de fabricación con plásticos vírgenes (aquellos plásticos que provienen como subproducto del proceso de refinamiento del petróleo), es muy diferente al llevado a cabo con maderas o metales, ya que estos, son inyectados en moldes y, por lo general, el producto final resulta en una sola pieza o en varias, si es el caso de mobiliarios modulares.
 
-      .tarjeta.colormodal(x="70.4%" y="54.5%" numero="+")
+      .tarjeta.colormodal(x="96.4%" y="54.5%" numero="+")
         .row.justify-content-center.mb-5.p-5(data-aos="fade-left")
           .col-5
             figure
               img(src='@/assets/curso/temas/tema1/img-67.png')
           .col-7
-            p <b>Plásticos reciclados </b>
-
-            p Por otra parte, los plásticos reciclados, aunque también pueden ser inyectados en moldes para la conformación de nuevos productos, debido a la facilidad de conformación de vigas o tubos redondos o cuadrados. Son utilizados de esta manera, para luego construir nuevos productos, mediante procesos de mecanizados similares a los de la madera y los metales. El plástico al igual que el aluminio y el acero, puede ser combinado con la madera para obtener productos sofisticados y disruptivos.
+            p.tamanio Por otra parte, los plásticos reciclados, aunque también pueden ser inyectados en moldes para la conformación de nuevos productos, debido a la facilidad de conformación de vigas o tubos redondos o cuadrados. Son utilizados de esta manera, para luego construir nuevos productos, mediante procesos de mecanizados similares a los de la madera y los metales. El plástico al igual que el aluminio y el acero, puede ser combinado con la madera para obtener productos sofisticados y disruptivos.
 
     separador 
 
@@ -184,7 +165,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             .cajon.color-acento-botones.p-4.mb-4
-              p Los softwares de diseño CAD y dibujo mecánico, mediante el uso de bibliotecas incluidas, permiten la revisión e inserción al diseño de los tipos de elementos de fijación mecánica y/o soldadura, con el que se proyecta el diseño del producto. 
+              p Los <em>softwares</em> de diseño CAD y dibujo mecánico, mediante el uso de bibliotecas incluidas, permiten la revisión e inserción al diseño de los tipos de elementos de fijación mecánica y/o soldadura, con el que se proyecta el diseño del producto. 
 
         p A continuación, se observan algunas características de los elementos de sujeción o fijación mecánica: 
 
@@ -209,7 +190,7 @@
           .col-md-6.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema1/img-13.png')
-      .py-4.py-md-5(titulo="Los tornillos de cabeza plana y tipo estrella" :icono="require('@/assets/curso/temas/tema1/img-11.png')")
+      .py-4.py-md-5(titulo="Los tarugos o tacos" :icono="require('@/assets/curso/temas/tema1/img-11.png')")
         .row
           .col-md-6
             br
@@ -261,14 +242,14 @@
     p.mb-5 Se pueden observar algunas características de la soldadura a continuación: 
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-acento-botones.p-5
+      .col-md.tarjeta.color-lado-izq.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure.mb-3
               img(src='@/assets/curso/temas/tema1/img-19.png')
 
         p.text-center.ms-5.me-5 La soldadura es un proceso considerablemente más complejo y costoso, que, por lo general se emplea en mobiliarios muy especializados.  
-      .col-md.tarjeta.color-secundario.p-5
+      .col-md.tarjeta.color-lado-der.p-5
         .row.justify-content-center.mb-4
           .col-6
             figure.mb-3
@@ -288,7 +269,7 @@
           p.mb-0.text-small <b>Figura 2</b>.
           p.text-small <em>Esquema de un ensamble</em>
 
-    ImagenInfograficaB.color-acento-botones.mb-5.img-infografica-b__item__numero-2
+    ImagenInfograficaB.color-acento-botones.mb-5.img-infografica-b__item__numero-3
       template(v-slot:imagen)
         figure
           img.mb-4(src='@/assets/curso/temas/tema1/img-21.png')
@@ -299,8 +280,6 @@
               img(src='@/assets/curso/temas/tema1/img-22.png')
           .col-lg-7.col-sm-12
             br
-            br
-            br
             p.tamanio El isométrico o renderizado del producto, permite tanto al diseñador, el equipo de producción y a los clientes, identificar el producto sobre el cual se llevarán a cabo los procesos y pasos para el ensamble. Esto es muy importante, porque a medida que se van generando más diseños de productos, las nuevas versiones u ofertas, surgen a partir de la revisión y mejora de los anteriores. En el caso de los clientes, les permite tener un marco de referencia sobre el producto.
       .tarjeta.colormodal-2(x="40.2%" y="35%" numero="+")
         .row.justify-content-center.mb-5.p-5
@@ -309,8 +288,6 @@
               img(src='@/assets/curso/temas/tema1/img-23.png')
           .col-lg-7.col-sm-12
             br
-            br
-            br
             p.tamanio Los pasos ordenados son el conjunto de instrucciones que, para el diseñador, el equipo de diseño y los clientes, representan desde la apertura del envoltorio del mobiliario, hasta el último elemento o tornillo que componen el producto. Para el caso de los muebles modulares, gracias a la opción de explosionado, el diseñador puede tomar partes o secciones para mostrar de manera detallada el procedimiento de forma sencilla y entendible. En esta fase, se representan también los elementos de fijación mecánica empleados o los ensambles angulares, si el producto los requiere.
       .tarjeta.colormodal-2(x="74%" y="35%" numero="+")
         .row.justify-content-center.mb-5.p-5
@@ -318,8 +295,6 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-24.svg')
           .col-lg-7.col-sm-12
-            br
-            br
             br
             p.tamanio Las anotaciones y ayudas corresponden a las indicaciones que permiten tener un mayor entendimiento al diseñador y en especial al cliente, en cuanto a la utilización de herramientas, o consideraciones de seguridad aplicables tanto en el proceso de ensamble, como en el uso del mueble. Aspectos aplicables a la garantía, mantenimiento, contacto y similares.
 </template>
