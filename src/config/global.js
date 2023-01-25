@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo: `Elementos y etapas en la preproducción de mobiliarios`,
-    descripcionCurso: `Este componente formativo abarca las principales materias primas y materiales empleados en el proceso de fabricación de mobiliarios. Asimismo, desarrolla lo referente al proceso de mobiliarios que requieren un ensamble poscompra por parte del cliente. Finalmente, se abordan las consideraciones que debe tener en cuenta el diseñador para la custodia de los planos generados dentro del marco de la preproducción.`,
+    descripcionCurso: `En este componente formativo, se abarca el conocimiento de las principales materias primas y materiales empleados en el proceso de fabricación de mobiliarios. Se desarrolla lo referente al proceso de mobiliarios que requieren un ensamble post compra, por parte del cliente. Para completar, se estudian las consideraciones que debe tener en cuenta el diseñador para la custodia de los planos, generados dentro del marco de la preproducción.`,
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
@@ -36,7 +36,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Materias primas, y materiales en el ensamble de mobiliarios',
+        titulo: 'Materias primas y materiales en el ensamble de mobiliarios',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -125,7 +125,7 @@ export default {
   },
   complementario: [
     {
-      tema: `Materias primas, y materiales en el ensamble mobiliarios`,
+      tema: `Materias primas y materiales en el ensamble mobiliarios`,
       referencia: `Fondo Mundial para la Naturaleza WWF. (2013) <em>Maderas de Colombia Woods of Colombia</em>.`,
       tipo: 'Libro virtual',
       link: `http://d2ouvy59p0dg6k.cloudfront.net/downloads/maderas_de_colombia_15_version_aprobada.pdf`,
@@ -138,7 +138,7 @@ export default {
     },
     {
       tema: `Vistas auxiliares y detalle en el ensamble`,
-      referencia: `Manuales de usuario simplificado (s/f). <em> Ovela OVPIZBFUBA Unidad de buffet Pizzola Guía del usuario</em>. `,
+      referencia: `Manuales de usuario simplificado. (s/f).  Ovela. OVPIZBFUBA <em>Unidad de buffet Pizzola Guía del usuario.</em>`,
       tipo: 'Manual de usuario',
       link: `https://manuals.plus/es/ovela/ovpizbfuba-pizzola-buffet-unit-manual#axzz7e9MnqM00`,
     },
@@ -197,15 +197,15 @@ export default {
       link: `https://colaboracion.dnp.gov.co/cdt/desarrollo%20empresarial/maderas.pdf`,
     },
     {
-      referencia: `Iglesias, S. (13 de octubre de 2021). <em>El renderizado en tiempo real integración y posibilidades en el ámbito académico</em>. Repositorio Universidad de Coruña. `,
+      referencia: `Iglesias, S. (2021). <em>El renderizado en tiempo real integración y posibilidades en el ámbito académico</em>. Repositorio Universidad de Coruña. `,
       link: `https://ruc.udc.es/dspace/bitstream/handle/2183/28843/IglesiasYa%C3%B1ez_Santiago_TFG_2021.pdf?sequence=2`,
     },
     {
-      referencia: `Mercado, F. (14 de abril de 2022). <em>El cajetín. The finite element</em>. Recuperado el 8 de agosto de 2022. `,
+      referencia: `Mercado, F. (2022). <em>El cajetín. The finite element.</em> `,
       link: `https://www.thefinitelement.com/el-cajetin`,
     },
     {
-      referencia: `Manuales de usuario simplificado (s/f). <em>Ovela OVPIZBFUBA Unidad de buffet Pizzola Guía del usuario</em> [Archivo PDF]. Manuals.plus. `,
+      referencia: `Manuales de usuario simplificado. (s/f). <em>Ovela OVPIZBFUBA Unidad de buffet Pizzola Guía del usuario [Archivo PDF].</em> Manuals.plus. `,
       link: `https://manuals.plus/es/ovela/ovpizbfuba-pizzola-buffet-unit-manual#axzz7e9MnqM00`,
     },
   ],

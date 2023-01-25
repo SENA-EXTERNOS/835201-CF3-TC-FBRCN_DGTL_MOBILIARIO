@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Materias primas, y materiales en el ensamble de mobiliarios
+      h1 Materias primas y materiales en el ensamble de mobiliarios
 
     p.mb-5 Tradicionalmente la madera ha sido la materia prima predilecta para la fabricación de mobiliarios. Sin embargo, otras fibras naturales como el mimbre, así como materiales como el acero inoxidable y aluminio, son utilizados especialmente en espacios  exteriores.
 
@@ -62,8 +62,8 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-secundario.pb-0
-          p.mb-0.text-small <b>Figura 1</b>.
-          p.text-small <em>Materias primas en mobiliarios</em>
+          p.mb-0 <b>Figura 1</b>
+          p <em>Materias primas en mobiliarios</em>
 
     ImagenInfograficaB.color-acento-botones.mb-5.img-infografica-b__item__numero-2
       template(v-slot:imagen)
@@ -165,7 +165,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             .cajon.color-acento-botones.p-4.mb-4
-              p Los <em>softwares</em> de diseño CAD y dibujo mecánico, mediante el uso de bibliotecas incluidas, permiten la revisión e inserción al diseño de los tipos de elementos de fijación mecánica y/o soldadura, con el que se proyecta el diseño del producto. 
+              p Los <em>software</em> de diseño CAD y dibujo mecánico, mediante el uso de bibliotecas incluidas, permiten la revisión e inserción al diseño de los tipos de elementos de fijación mecánica y/o soldadura, con el que se proyecta el diseño del producto. 
 
         p A continuación, se observan algunas características de los elementos de sujeción o fijación mecánica: 
 
@@ -266,8 +266,8 @@
     .row.justify-content-center
       .col-lg-10
         .titulo-sexto.color-secundario.pb-0
-          p.mb-0.text-small <b>Figura 2</b>.
-          p.text-small <em>Esquema de un ensamble</em>
+          p.mb-0 <b>Figura 2</b>
+          p <em>Esquema de un ensamble</em>
 
     ImagenInfograficaB.color-acento-botones.mb-5.img-infografica-b__item__numero-3
       template(v-slot:imagen)
@@ -293,7 +293,7 @@
         .row.justify-content-center.mb-5.p-5
           .col-lg-5
             figure
-              img(src='@/assets/curso/temas/tema1/img-24.svg')
+              img(src='@/assets/curso/temas/tema1/img-24-.svg')
           .col-lg-7.col-sm-12
             br
             p.tamanio Las anotaciones y ayudas corresponden a las indicaciones que permiten tener un mayor entendimiento al diseñador y en especial al cliente, en cuanto a la utilización de herramientas, o consideraciones de seguridad aplicables tanto en el proceso de ensamble, como en el uso del mueble. Aspectos aplicables a la garantía, mantenimiento, contacto y similares.

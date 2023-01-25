@@ -118,8 +118,9 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-secundario.pb-0
-          p.mb-0.text-small <b>tabla 1</b>. Ejemplo del cajetín
-
+          p.mb-0 <b>Tabla 1</b> 
+          p.mb-0
+            em Ejemplo del cajetín
         figure
           img(src="@/assets/curso/temas/tema5/img-10.png").m-auto
           figcaption Nota: Adaptada de El cajetín. The finite element. Mercado, F. (2022)
@@ -131,7 +132,7 @@
         .cajon.color-bloque-2.p-4.mb-4
           p Ejemplo para el diseño y diligenciamiento de un cajetín, los espacios de unidades, cantidad y número son elementos que el diseñador o equipo de producción puede crear o cambiar por otros ítems que se consideren relevantes para el seguimiento y la gestión del plano. 
 
-    p Se recomienda explorar los demás recursos que se encuentran disponibles en este componente formativo, para hacerlo es importante ir al menú principal en donde se encuentra la síntesis, una actividad didáctica, el material complementario, entre otros. 
+    p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 </template>
 
 <script>

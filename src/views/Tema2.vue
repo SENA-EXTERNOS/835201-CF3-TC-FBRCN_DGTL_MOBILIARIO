@@ -62,16 +62,29 @@
         .row.justify-content-center.align-items-center
           .col-lg-12
             .cajon.color-acento-botones.p-4.mb-4
-              p Según (Iglesias, 2021) dentro de los <em>softwares</em> de diseño o dibujo mecánico revisados hasta ahora, a excepción de la plataforma en línea <em>Thinkercad</em>, las operaciones de renderizado se llevan a cabo mediante plug-ins como el V-ray. Este se puede adicionar a programas como <em>Sketchup</em>, Revit, 3dsMax, entre otros. En el caso de Autocad, el motor de renderizado incluido, permite llevar a cabo estas operaciones sin necesidad de la instalación de más componentes. 
+              p Según Iglesias (2021), dentro de los <em>software</em> de diseño o dibujo mecánico revisados hasta ahora, a excepción de la plataforma en línea <em>Thinkercad</em>, las operaciones de renderizado se llevan a cabo mediante plug-ins como el V-ray. Este se puede adicionar a programas como <em>Sketchup</em>, Revit, 3dsMax, entre otros. En el caso de Autocad, el motor de renderizado incluido, permite llevar a cabo estas operaciones sin necesidad de la instalación de más componentes. 
 
     p.mb-5 Ejemplo de <em>renderizado</em> de mueble y butaca de madera en un espacio cerrado con iluminación diurna:  
 
-    .bloque-texto-a.p-4.p-md-5.mb-5.cuadro-derecha-7
-      .row.m-0.align-items-center.justify-content-between.bloque-texto-a.texto-3
-        .col-lg-4.mb-4.mb-lg-0.col-md-10
-        .col-lg-8.col-md-10
-          .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
-            p En este ejemplo de renderizado, puede observarse cómo el diseñador presenta dos productos mobiliarios en madera en un espacio cerrado y la forma en la que se destacan algunas funciones como soportar plantas decorativas, para el caso de la butaca. Además, cómo se relaciona o ve esta, junto al estante con otra planta; cuyos colores contrastan con el tono de la pared de fondo y el piso, con respecto a los empleados en los productos, así como con la tonalidad de la luz de la habitación. El recurso del renderizado también es utilizado para la producción de videos publicitarios o animaciones de realidad virtual y aumentada. 
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5.bl-izq.fnd-1 
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-5.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p En este ejemplo de renderizado, puede observarse cómo el diseñador presenta dos productos mobiliarios en madera en un espacio cerrado y la forma en la que se destacan algunas funciones como soportar plantas decorativas, para el caso de la butaca. Además, cómo se relaciona o ve esta, junto al estante con otra planta; cuyos colores contrastan con el tono de la pared de fondo y el piso, con respecto a los empleados en los productos, así como con la tonalidad de la luz de la habitación. El recurso del renderizado también es utilizado para la producción de videos publicitarios o animaciones de realidad virtual y aumentada. 
+
+
+
+
+
+
+
+
+
+
+
+
 
     h3 Explosionado
 
@@ -100,9 +113,9 @@
         .row.justify-content-center.align-items-center.mb-0
           .col-md-6.mb-4.mb-md-0
           
-            p.ms-5 Ejemplo de explosionado de partes del conjunto de la puerta de la mesa auxiliar, se aprecian elementos de fijación mecánica entre las bisagras y la superficie del producto. 
+            p.ms-5 Ejemplo de explosionado de partes del conjunto de la puerta de la mesa auxiliar; se aprecian elementos de fijación mecánica entre las bisagras y la superficie del producto. 
 
-            p.ms-5 En esta figura, se aprecia en un círculo el aumento de la imagen del conjunto: bisagra, puerta y tronillos. A esta acción se le denomina, <em>vista de detalle o auxiliar</em>, que se desarrollará en el siguiente tema. (Ovela, s/f).   
+            p.ms-5 En esta figura, se aprecia, en un círculo, el aumento de la imagen del conjunto: bisagra, puerta y tronillos. A esta acción se le denomina, <b>vista de detalle</b> o <b>auxiliar</b>, que se desarrollará más adelante.  
           .col-md-6
             figure.row.justify-content-center.mb-0
               .col-lg-8
