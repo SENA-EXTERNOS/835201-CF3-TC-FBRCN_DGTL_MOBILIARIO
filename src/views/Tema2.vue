@@ -115,7 +115,7 @@
           
             p.ms-5 Ejemplo de explosionado de partes del conjunto de la puerta de la mesa auxiliar; se aprecian elementos de fijación mecánica entre las bisagras y la superficie del producto. 
 
-            p.ms-5 En esta figura, se aprecia, en un círculo, el aumento de la imagen del conjunto: bisagra, puerta y tronillos. A esta acción se le denomina, <b>vista de detalle</b> o <b>auxiliar</b>, que se desarrollará más adelante.  
+            p.ms-5 En esta figura, se aprecia, en un círculo, el aumento de la imagen del conjunto: bisagra, puerta y tornillos. A esta acción se le denomina, <b>vista de detalle</b> o <b>auxiliar</b>, que se desarrollará más adelante.  
           .col-md-6
             figure.row.justify-content-center.mb-0
               .col-lg-8
