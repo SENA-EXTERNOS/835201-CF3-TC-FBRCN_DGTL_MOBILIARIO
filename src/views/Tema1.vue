@@ -54,7 +54,7 @@
         .col-lg-4.mb-4.mb-lg-0.col-md-10
         .col-lg-8.col-md-10
           .bloque-texto-a__texto.p-4.order-md-first.order-sm-last
-            p Como se mencionó previamente, la materia prima o material predominante en el proceso de diseño y fabricación de mobiliarios es la <b>madera</b>. No obstante, existen distintos tipos de madera, que, de acuerdo a su procedencia y tratamiento, se dividen en distintas categorías y se destinan para diversos usos. Del mismo modo, otras materias primas, como el <b>cacero inoxidable</b> se encuentran en varias presentaciones, de igual forma los <b>aluminios</b> con diferentes tratamientos y por supuesto los <b>plásticos</b>. 
+            p Como se mencionó previamente, la materia prima o material predominante en el proceso de diseño y fabricación de mobiliarios es la <b>madera</b>. No obstante, existen distintos tipos de madera, que, de acuerdo a su procedencia y tratamiento, se dividen en distintas categorías y se destinan para diversos usos. Del mismo modo, otras materias primas, como el <b>acero inoxidable</b> se encuentran en varias presentaciones, de igual forma los <b>aluminios</b> con diferentes tratamientos y por supuesto los <b>plásticos</b>. 
             p Dentro de los materiales que se utilizan como accesorios es posible encontrar herrajes en acero, aluminio, madera y plástico, que, de acuerdo a la función del mobiliario y estilo de diseño, pueden ser empleados para realzar propiedades físicas, estructurales o de impacto visual.
 
     p Teniendo en lo anterior, a continuación, se presentan las principales materias primas para la producción de mobiliario:
