@@ -118,7 +118,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-secundario.pb-0
-          p.mb-0 <b>Tabla 1</b>
+          p.mb-0 <b>Figura 3</b>
           p.mb-0
             em Ejemplo del cajetín
         figure
